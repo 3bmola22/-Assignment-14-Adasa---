@@ -41,7 +41,8 @@ export default function Devs({ posts }) {
                 </div>
               </div>
               <button className="bg-transparent border-0">
-                <NavLink to={slug}>
+                <NavLink className={"text-decoration-none"} to={slug}>
+                  For more info
                   <i className="fa-solid fa-circle-chevron-right fs-3 my-auto"></i>
                 </NavLink>
               </button>
